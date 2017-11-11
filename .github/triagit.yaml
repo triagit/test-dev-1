@@ -45,8 +45,10 @@ rules:
   options:
     strategy:
       - lines: 100
+        files: 10
         apply_label: size-small
       - lines: 200
+        files: 20
         apply_label: size-medium
       - apply_label: size-large
         add_comment: |
