@@ -44,11 +44,9 @@ rules:
   rule: pr_size_check
   options:
     strategy:
-      - files: 10
-        lines: 100
+      - lines: 100
         apply_label: size-small
-      - files: 20
-        lines: 200
+      - lines: 200
         apply_label: size-medium
       - apply_label: size-large
         add_comment: |
