@@ -1,16 +1,16 @@
 ---
 rules:
 
-- name: close_issues_older_than_2_days
+- name: close_issues_older_than_3_days
   rule: close_outdated_issues
   options:
     # ISO 8601 duration
-    older_than: P2D
+    older_than: P3D
     # Optional, apply label when closing
     apply_label: inactive
     # Optional, leave a comment when closing
     add_comment: |
-      Sorry, closing the issue as its older than 2 days
+      Sorry, closing the issue as its older  than 3 days
 
 - name: close_outdated_prs_older_than_21_days
   rule: close_outdated_pr
