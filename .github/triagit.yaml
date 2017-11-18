@@ -52,4 +52,4 @@ rules:
         apply_label: size-medium
       - apply_label: size-large
         add_comment: |
-          Your PR is too large
+          Your PR is way too large
