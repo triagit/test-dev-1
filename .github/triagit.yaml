@@ -10,7 +10,7 @@ rules:
     apply_label: inactive
     # Optional, leave a comment when closing
     add_comment: |
-      Sorry, closing the issue as its older than 3 days
+      Sorry, closing the issue as its older  than 3 days
 
 - name: close_outdated_prs_older_than_21_days
   rule: close_outdated_pr
